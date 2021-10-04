@@ -1,0 +1,28 @@
+{
+  "name": "SaltWagonAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaltWagon/SaltWagonAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaltWagon/SaltWagonAPI/issues"
+  },
+  "homepage": "https://github.com/SaltWagon/SaltWagonAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
