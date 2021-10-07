@@ -13,9 +13,9 @@ app.use(function (err, req, res, next) {
     }
 })
 
-app.use(function (err, req, res, next) {
-    res.status(422).send({ error: err.message });
-});
+// app.use(function (err, req, res, next) {
+//     res.status(422).send({ error: err.message });
+// });
 
 app.listen(PORT, function () {
     console.log('Server Started');
