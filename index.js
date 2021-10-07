@@ -4,8 +4,6 @@ const apiRouter = require('./routers/api.js');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use('/api', apiRouter);
-
 app.use(function (err, req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Origin', 'X-Requested-With', 'Content-Type', 'Accept', 'Authorization');
@@ -22,3 +20,5 @@ app.use(function (err, req, res, next) {
 app.listen(PORT, function () {
     console.log('Server Started');
 })
+
+app.use('/api', apiRouter);
