@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const { MongoClient } = require("mongodb");
-const uri = "mongodb+srv://saltWagon:K9aWz86b8w13e4iE@cluster0.wzovy.mongodb.net/parkingEasy?retryWrites=true&w=majority";
+const uri = "[MongoDB URI]";
 const client = new MongoClient(uri);
 
 router.get('/findMultiple', async function (req, res) {
