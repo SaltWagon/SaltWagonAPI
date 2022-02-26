@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/SaltWagon/SaltWagonAPI#readme",
   "dependencies": {
+    "axios": "^0.26.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongodb": "^4.1.2"
